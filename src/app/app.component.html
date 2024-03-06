@@ -1,12 +1,96 @@
-<div class="min-w-screen min-h-screen bg-teal-900 flex items-center justify-centerpx-5 py-5">
-<div class="w-full mx-auto rounded-xl  shadow-xl text-gray-800 relative overflow-hidden" style="max-width: 350px;">
-  <h1 class="text-center text-white  py-10 text-3xl font-bold"> Angular Calculator</h1>
-  
-  <div class="w-full h-40 bg-gradient-to-b from-gray-800 to-gray-700 text-right">
-    <div class="w-full py-5 px-6 text-2xl text-white font-thin">
-      Function
+<div
+  class="min-w-screen min-h-screen bg-teal-900 flex items-center justify-centerpx-5 py-5"
+>
+  <div
+    class="w-full mx-auto rounded-xl shadow-xl text-gray-800 relative overflow-hidden"
+    style="max-width: 350px"
+  >
+    <h1 class="text-center text-white py-10 text-3xl font-bold">
+      Angular Calculator
+    </h1>
+
+    <div
+      class="w-full h-40 bg-gradient-to-b from-gray-800 to-gray-700 text-right"
+    >
+      <!-- function screen  -->
+      <div class="w-full py-5 px-6 text-2xl text-white font-thin">Function</div>
+      <!-- numbers screen  -->
+      <div class="w-full py-5 px-6 text-6xl text-white font-thin">100</div>
+
+      <!-- end calculator screen  -->
+    </div>
+    <!-- calculator button area -->
+
+    <div class="w-full bg-gradient-to-b from-red-500 to-red-800">
+      <!-- first button row -->
+      <div class="flex w-full">
+        <!-- clear button -->
+        <div class="w-2/4 border-r border-b border-red-400">
+          <button
+            class="w-full h-16 outline-none hover:bg-red-700 text-white text-opacity-50 text-xl font-light"
+          >
+            C
+          </button>
+        </div>
+
+        <!-- end clear button -->
+        <!-- percentage button -->
+        <div class="w-1/4 border-r border-b border-red-400">
+          <button
+            class="w-full h-16 outline-none focus:outline-none text-white hover:bg-red-700 hover:opacity-50 text-xl font-light"
+          >
+            %
+          </button>
+        </div>
+        <!--  end percentage button  -->
+
+        <!-- multiplication button  -->
+        <div class="w-1/4 border-r border-b border-red-400">
+          <button
+            class="w-full outline-none focus:outline-none h-16 bg-red-700 bg-opacity-10 text-white text-2xl font-light"
+          >
+            x
+          </button>
+        </div>
+      </div>
+      <!-- end of the first button row -->
+      <!--  start second button area  -->
+      <div class="flex w-full">
+        <!-- number 7 button  -->
+        <div class="w-1/4 border-r border-b border-red-400">
+          <button
+            class="w-full h-16 outline-none focus:outline-none text-white text-xl font-light hover:bg-opacity-20"
+          >
+            7
+          </button>
+        </div>
+        <!-- number 8 button  -->
+        <div class="w-1/4 border-r border-b border-red-400">
+          <button
+            class="w-full h-16 outline-none focus:outline-none text-white text-xl font-light hover:bg-opacity-20"
+          >
+            8
+          </button>
+        </div>
+        <!-- number 9 button  -->
+        <div class="w-1/4 border-r border-b border-red-400">
+          <button
+            class="w-full h-16 outline-none focus:outline-none text-white text-xl font-light hover:bg-opacity-20"
+          >
+            9
+          </button>
+        </div>
+        <!-- division button  -->
+        <div class="w-1/4 border-r border-b border-red-400">
+          <button
+            class="w-full h-16 outline-none focus:outline-none text-white text-xl font-light hover:bg-opacity-20"
+          >
+            /
+          </button>
+        </div>
+      </div>
+      <!-- end of second row -->
+      <!-- end calculator button area  -->
     </div>
   </div>
-
-</div>
 </div>
